@@ -1,0 +1,21 @@
+
+<div class="header">
+
+  <div class="MyList">
+
+    <mat-action-list>
+      <button mat-list-item routerLink="/myOpenTask" routerLinkActive="active"><mat-icon>folder_open</mat-icon> MY OPEN TASK </button>
+      <button mat-list-item routerLink="/escalations" routerLinkActive="active"><mat-icon>error_outline</mat-icon> ESCALATIONS </button>
+      <button mat-list-item routerLink="/onHold" routerLinkActive="active"><mat-icon>opacity</mat-icon> ON HOLD </button>
+      <button mat-list-item routerLink="/doneByMe" routerLinkActive="active">  <mat-icon>done_all</mat-icon>  DONE BY ME </button>
+      <button mat-list-item routerLink="/allTask"  routerLinkActive="active"><mat-icon>folder_special</mat-icon> ALL TASKS </button>
+    </mat-action-list>
+
+
+  </div>
+  <div>
+
+    <router-outlet></router-outlet>
+
+  </div>
+</div>

@@ -1,0 +1,10 @@
+.MyList{
+  width: 190px;
+  background: #f0eaf0;
+  font-size: 12px;
+}
+
+.header{
+  display: flex;
+  justify-content: center
+}
